@@ -286,7 +286,7 @@ void mmu_loop(void)
 			if (READ(ESP_PIN))
 			{
 				// TODO: Add actual filename
-				menu_action_sdfile('filename')
+				menu_action_sdfile('12mm_cube.gcode')
 			}
 
 			if ((mmu_cmd >= MmuCmd::T0) && (mmu_cmd <= MmuCmd::T4))
