@@ -32,28 +32,28 @@
 #define X_MS1_PIN           -1
 #define X_MS2_PIN           -1
 
-#define Y_TMC2130_CS        39
-#define Y_TMC2130_DIAG      69
-#define Y_STEP_PIN          36
-#define Y_DIR_PIN           48
-#define Y_MIN_PIN           11
+#define Z_TMC2130_CS        39
+#define Z_TMC2130_DIAG      69
+#define Z_STEP_PIN          36
+#define Z_DIR_PIN           48
+#define Z_MIN_PIN           11
 //#define Y_MAX_PIN           24
 //#define Y_MIN_PIN           Y_TMC2130_DIAG
-#define Y_MAX_PIN           Y_TMC2130_DIAG
-#define Y_ENABLE_PIN        28
-#define Y_MS1_PIN           -1
-#define Y_MS2_PIN           -1
-
-#define Z_TMC2130_CS        67
-#define Z_TMC2130_DIAG      68
-#define Z_STEP_PIN          35
-#define Z_DIR_PIN           47
-#define Z_MIN_PIN           10
-#define Z_MAX_PIN           23
-//#define Z_MAX_PIN           Z_TMC2130_DIAG
-#define Z_ENABLE_PIN        27
+#define Z_MAX_PIN           Y_TMC2130_DIAG
+#define Z_ENABLE_PIN        28
 #define Z_MS1_PIN           -1
 #define Z_MS2_PIN           -1
+
+#define Y_TMC2130_CS        67
+#define Y_TMC2130_DIAG      68
+#define Y_STEP_PIN          35
+#define Y_DIR_PIN           47
+#define Y_MIN_PIN           10
+#define Y_MAX_PIN           23
+//#define Z_MAX_PIN           Z_TMC2130_DIAG
+#define Y_ENABLE_PIN        27
+#define Y_MS1_PIN           -1
+#define Y_MS2_PIN           -1
 
 #define HEATER_BED_PIN       4 //PG5
 #define TEMP_BED_PIN         2 //A2
